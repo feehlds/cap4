@@ -7,11 +7,9 @@ public class App {
 		Scanner ler = new Scanner(System.in);
 		int num;
 		Cripto crip = new Cripto();
-		
+			
 		System.out.println("Digite 4 digitos sem espaço: ");
 		num = ler.nextInt();
-		
-		System.out.println("CRIPTO: " + crip.criptografar(num));
-		}
-	
+		System.out.println("Número criptografado: " + crip.criptografar(num));
+		}			
 }
